@@ -1,4 +1,8 @@
 package com.bagew.firstapp;
+/**
+ * MainActivity.java is the Java file that defines the behavior of your app's main screen.
+ * It's where you write the code that makes your app interactive and functional.
+ */
 
 import android.os.Bundle;
 
