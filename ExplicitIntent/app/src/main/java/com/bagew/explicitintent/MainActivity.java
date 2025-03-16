@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn = findViewById(R.id.button);
         btn.setOnClickListener(v -> {
             Intent intent = new Intent(this, SecondActivity.class);
+            intent.putExtra("msg","hello from MainActivity");
             startActivity(intent);
         });
     }
