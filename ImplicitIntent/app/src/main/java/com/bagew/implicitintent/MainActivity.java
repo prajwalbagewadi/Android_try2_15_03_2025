@@ -38,5 +38,19 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Button btn3 = findViewById(R.id.sms);
+        btn3.setOnClickListener(v -> {
+            Intent intent = new Intent(Intent.ACTION_SENDTO);
+            intent.setData(Uri.parse("smsto:+917498957937"));
+            intent.putExtra("sms_body", "Hello, World!");
+            startActivity(intent);
+        });
+
+        Button btn4 = findViewById(R.id.openCamera);
+        btn4.setOnClickListener(v -> {
+            Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(intent);
+        });
+
     }
 }
