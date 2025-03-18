@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = findViewById(R.id.google);
         btn2.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://www.google.com"));
+            intent.setData(Uri.parse("https://www.youtube.com"));
             startActivity(intent);
         });
 
