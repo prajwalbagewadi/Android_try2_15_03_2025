@@ -9,6 +9,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        //get data passed from the intent.
         String msg = getIntent().getStringExtra("msg");
         EditText etxt = findViewById(R.id.editText);
         etxt.setText(msg);
