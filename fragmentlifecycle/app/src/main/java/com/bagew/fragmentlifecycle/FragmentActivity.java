@@ -37,6 +37,11 @@ public class FragmentActivity extends Fragment {
         return inflater.inflate(R.layout.fragment_eg, container,false);
     }
 
+    public void onViewCreated(View view,Bundle savedInstanceState){
+        super.onViewCreated(view,savedInstanceState);
+        Log.d("fraglifecycle","onViewCreated() called by FragmentActivity");
+    }
+
     public void onStart(){
         super.onStart();
         //Called when the fragment becomes visible.
