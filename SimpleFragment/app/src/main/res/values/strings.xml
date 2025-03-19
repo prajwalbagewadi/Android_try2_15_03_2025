@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleFragment</string>
+    <string name="s1">Fragment_View</string>
+</resources>
