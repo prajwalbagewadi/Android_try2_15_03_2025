@@ -79,7 +79,7 @@ public class FragmentActivity2 extends Fragment {
         Log.d("fraglifecycle","onDestory() called from FragmentActivity2");
     }
 
-    public void onDettach(){
+    public void onDetach(){
         //Called when the fragment is detached from the activity.
         super.onDetach();
         Log.d("fraglifecycle","onDettach() called from FragmentActivity2");
