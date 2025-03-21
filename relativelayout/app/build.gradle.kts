@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bagew.tablelayout"
+    namespace = "com.bagew.relativelayout"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.bagew.tablelayout"
+        applicationId = "com.bagew.relativelayout"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
