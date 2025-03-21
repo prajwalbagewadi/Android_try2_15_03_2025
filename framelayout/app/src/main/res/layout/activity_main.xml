@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@drawable/spy_x_family_iphone_wallpaper_1690x2366_12783"
+        />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout. OverLay Text."
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:layout_marginBottom="300dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay text"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/Red"
+        android:layout_gravity="center"
+        />
+</FrameLayout>
