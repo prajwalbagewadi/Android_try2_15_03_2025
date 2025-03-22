@@ -7,7 +7,12 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".MainActivity">
-
+    <!--
+        Anchor
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+    -->
     <TextView
         android:id="@+id/head"
         android:layout_width="wrap_content"
