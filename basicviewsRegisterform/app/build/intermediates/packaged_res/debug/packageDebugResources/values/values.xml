@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="babelpink">#FF99C9</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">basicviewsRegisterform</string>
+    <style name="Base.Theme.BasicviewsRegisterform" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BasicviewsRegisterform" parent="Base.Theme.BasicviewsRegisterform"/>
+</resources>
