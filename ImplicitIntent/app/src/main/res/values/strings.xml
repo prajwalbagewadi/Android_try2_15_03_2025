@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">ImplicitIntent</string>
-    <string name="hello_world">Hello, World!</string>
-    <string name="call_dad">Call Dad.</string>
-    <string name="google">Google.</string>
-</resources>
